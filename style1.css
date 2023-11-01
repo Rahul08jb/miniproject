@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    border:2px ;
+    display:grid;
+    row-gap:20px;
+    column-gap:10px;
+    grid-template-columns:300px 300px 300px;
+}
+
+.box{
+    border:2px ;
+    padding: 20px;
+}
